@@ -8,7 +8,25 @@ declare var $:any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularAttempt';
+  title = 'Happy Anniversary!';
+
+  flip0(): void {
+    $('.ui.centered.card.0').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
+        $('.ui.centered.card.august').transition('horizontal flip');
+      }
+    });
+  }
+
+  flipaugust(): void {
+    $('.ui.centered.card.august').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
+        $('.ui.centered.card.180824_174426').transition('horizontal flip');
+      }
+    });
+  }
 
   flip180824_174426(): void {
     $('.ui.centered.card.180824_174426').transition({
@@ -57,6 +75,15 @@ export class AppComponent {
 
   flip180830_124958(): void {
     $('.ui.centered.card.180830_124958').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
+        $('.ui.centered.card.september').transition('horizontal flip');
+      }
+    });
+  }
+
+  flipseptember(): void {
+    $('.ui.centered.card.september').transition({
       animation: 'horizontal flip',
       onComplete: function(){
         $('.ui.centered.card.180903_174402').transition('horizontal flip');
@@ -167,6 +194,15 @@ export class AppComponent {
     $('.ui.centered.card.180927_210636').transition({
       animation: 'horizontal flip',
       onComplete: function(){
+        $('.ui.centered.card.october').transition('horizontal flip');
+      }
+    });
+  }
+
+  flipoctober(): void {
+    $('.ui.centered.card.october').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
         $('.ui.centered.card.181006_181525').transition('horizontal flip');
       }
     });
@@ -237,6 +273,15 @@ export class AppComponent {
 
   flip181031_131910(): void {
     $('.ui.centered.card.181031_131910').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
+        $('.ui.centered.card.november').transition('horizontal flip');
+      }
+    });
+  }
+
+  flipnovember(): void {
+    $('.ui.centered.card.november').transition({
       animation: 'horizontal flip',
       onComplete: function(){
         $('.ui.centered.card.181115_190341').transition('horizontal flip');
@@ -311,6 +356,15 @@ export class AppComponent {
     $('.ui.centered.card.181128_140834').transition({
       animation: 'horizontal flip',
       onComplete: function(){
+        $('.ui.centered.card.december').transition('horizontal flip');
+      }
+    });
+  }
+
+  flipdecember(): void {
+    $('.ui.centered.card.december').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
         $('.ui.centered.card.181205_160641').transition('horizontal flip');
       }
     });
@@ -354,6 +408,15 @@ export class AppComponent {
 
   flip181219_192508(): void {
     $('.ui.centered.card.181219_192508').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
+        $('.ui.centered.card.january').transition('horizontal flip');
+      }
+    });
+  }
+
+  flipjanuary(): void {
+    $('.ui.centered.card.january').transition({
       animation: 'horizontal flip',
       onComplete: function(){
         $('.ui.centered.card.190107_155738').transition('horizontal flip');
@@ -437,6 +500,15 @@ export class AppComponent {
     $('.ui.centered.card.190130_174127').transition({
       animation: 'horizontal flip',
       onComplete: function(){
+        $('.ui.centered.card.february').transition('horizontal flip');
+      }
+    });
+  }
+
+  flipfebruary(): void {
+    $('.ui.centered.card.february').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
         $('.ui.centered.card.190214_130804').transition('horizontal flip');
       }
     });
@@ -489,6 +561,15 @@ export class AppComponent {
 
   flip190226_160900(): void {
     $('.ui.centered.card.190226_160900').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
+        $('.ui.centered.card.march').transition('horizontal flip');
+      }
+    });
+  }
+
+  flipmarch(): void {
+    $('.ui.centered.card.march').transition({
       animation: 'horizontal flip',
       onComplete: function(){
         $('.ui.centered.card.190304_123150').transition('horizontal flip');
@@ -545,6 +626,15 @@ export class AppComponent {
     $('.ui.centered.card.190330_215429').transition({
       animation: 'horizontal flip',
       onComplete: function(){
+        $('.ui.centered.card.april').transition('horizontal flip');
+      }
+    });
+  }
+
+  flipapril(): void {
+    $('.ui.centered.card.april').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
         $('.ui.centered.card.190408_133454').transition('horizontal flip');
       }
     });
@@ -561,6 +651,15 @@ export class AppComponent {
 
   flip190421_143036(): void {
     $('.ui.centered.card.190421_143036').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
+        $('.ui.centered.card.may').transition('horizontal flip');
+      }
+    });
+  }
+
+  flipmay(): void {
+    $('.ui.centered.card.may').transition({
       animation: 'horizontal flip',
       onComplete: function(){
         $('.ui.centered.card.190501_162947').transition('horizontal flip');
@@ -671,6 +770,15 @@ export class AppComponent {
     $('.ui.centered.card.190531_185812').transition({
       animation: 'horizontal flip',
       onComplete: function(){
+        $('.ui.centered.card.june').transition('horizontal flip');
+      }
+    });
+  }
+
+  flipjune(): void {
+    $('.ui.centered.card.june').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
         $('.ui.centered.card.190603_211606').transition('horizontal flip');
       }
     });
@@ -714,6 +822,15 @@ export class AppComponent {
 
   flip190630_100351(): void {
     $('.ui.centered.card.190630_100351').transition({
+      animation: 'horizontal flip',
+      onComplete: function(){
+        $('.ui.centered.card.july').transition('horizontal flip');
+      }
+    });
+  }
+
+  flipjuly(): void {
+    $('.ui.centered.card.july').transition({
       animation: 'horizontal flip',
       onComplete: function(){
         $('.ui.centered.card.190701_155906').transition('horizontal flip');
